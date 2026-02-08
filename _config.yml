@@ -1,0 +1,14 @@
+# HealthExport Legal Pages Configuration
+title: HealthExport
+description: Static Pages for HealthExport App
+baseurl: ""
+url: "https://simonmh2u.github.io/healthexport-legal"
+
+# Build settings
+theme: jekyll-theme-minimal
+markdown: kramdown
+
+# Exclude files from Jekyll build
+exclude:
+  - .gitignore
+  - README.md
