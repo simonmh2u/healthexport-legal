@@ -61,7 +61,7 @@
 </head>
 <body>
     <h1>Terms of Service</h1>
-    <p class="last-updated">Last Updated: February 8, 2026</p>
+    <p class="last-updated">Last Updated: September 14, 2026</p>
 
     <p>These Terms of Service ("Terms") govern your use of Health Data Export ("the App"), a mobile application for exporting health data from Apple HealthKit. By downloading, installing, or using the App, you agree to be bound by these Terms.</p>
 
@@ -147,19 +147,22 @@
     <h2>8. Privacy and Data Collection</h2>
     <p>Your use of the App is governed by our <a href="https://simonmh2u.github.io/healthexport-legal/privacy.html">Privacy Policy</a>. Key points:</p>
     <ul>
-        <li>Your health data NEVER leaves your device</li>
-        <li>We do not upload, store, or transmit your health data</li>
-        <li>Exported files are stored locally on your device</li>
-        <li>You control what data is exported and where files are saved</li>
+        <li>Health data is processed on your device</li>
+        <li>We do not operate a server that receives or stores your health data</li>
+        <li>You control which data is exported and whether it is saved, shared, or delivered to an HTTPS webhook you configure</li>
+        <li>If you configure a webhook, the App sends the selected data directly to the endpoint you provide; we do not receive or control that endpoint</li>
+        <li>We do not use analytics, advertising, or tracking SDKs</li>
     </ul>
 
     <h2>9. Third-Party Services</h2>
-    <p>The App integrates with:</p>
+    <p>The App integrates with or can send data to services you select:</p>
     <ul>
         <li><strong>Apple HealthKit:</strong> Subject to Apple's terms and policies</li>
         <li><strong>Apple App Store/StoreKit:</strong> Purchases are subject to Apple's terms</li>
+        <li><strong>Files, iCloud, and sharing destinations:</strong> Exports are handled under Apple's or the selected provider's terms and policies</li>
+        <li><strong>User-configured webhook endpoints:</strong> Optional webhook delivery is subject to the endpoint operator's terms and privacy policy</li>
     </ul>
-    <p>We are not responsible for any third-party services or their policies.</p>
+    <p>You are responsible for selecting and securing export destinations. We are not responsible for third-party services, webhook endpoints, or their policies.</p>
 
     <h2>10. Termination</h2>
     <p>We reserve the right to:</p>
