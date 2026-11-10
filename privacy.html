@@ -61,13 +61,13 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p class="last-updated">Last Updated: September 14, 2026</p>
+    <p class="last-updated">Last Updated: November 10, 2026</p>
 
     <p>Health Data Export ("we," "our," or "the App") is committed to protecting your privacy. This Privacy Policy explains how the App handles health data and related information.</p>
 
     <div class="important">
         <strong>Privacy summary</strong>
-        <p>Health data is processed on your device. Health Data Export does not operate a health-data server and does not use analytics, advertising, or tracking SDKs. Data leaves your device only when you choose a Files or sharing destination, or when you configure an HTTPS webhook automation.</p>
+        <p>Health data is processed on your device. Health Data Export does not operate a health-data server and does not use analytics, advertising, or tracking SDKs. Data leaves your device only when you choose a Files or sharing destination, or when you configure an HTTPS webhook automation. Optional Insights summaries are generated on your device by Apple Intelligence; your health data is not sent to us or to any AI service for this feature.</p>
     </div>
 
     <h2>1. Health Data Access and Use</h2>
@@ -92,6 +92,7 @@
         <li>Create the manual and scheduled exports you request in JSON, CSV, or GPX format</li>
         <li>Calculate transparent summaries or derived values included in an export</li>
         <li>Deliver an export to a destination you choose</li>
+        <li>Show week-over-week statistics in the Insights tab and, on supported devices, generate an optional written summary of those statistics on your device</li>
     </ul>
     <p>The App does not use HealthKit data for advertising, marketing, data brokerage, or user profiling.</p>
 
@@ -99,6 +100,15 @@
 
     <h3>On-Device Processing</h3>
     <p>Health data is read from HealthKit and processed on your device. We do not operate a server that receives or stores your health data.</p>
+
+    <h3>Insights and On-Device Summaries</h3>
+    <p>The Insights tab calculates week-over-week averages (such as steps, active energy, exercise time, resting heart rate, heart-rate variability, and sleep) from the health data you have allowed the App to read. On supported iPhones with Apple Intelligence turned on, you can ask for a short written summary of those numbers.</p>
+    <ul>
+        <li>The summary is generated on your iPhone by Apple's on-device Foundation Models framework</li>
+        <li>Your health data is not sent to Health Data Export, to Apple's servers, or to any other AI service for this feature, and the feature works without a network connection</li>
+        <li>Statistics and summaries are shown on screen only; they are not saved by the App or included in exports</li>
+        <li>Summaries are generated automatically, may contain mistakes, and are not medical advice</li>
+    </ul>
 
     <h3>Files and Sharing</h3>
     <p>When you create a file export:</p>
@@ -137,6 +147,7 @@
     <ul>
         <li><strong>Apple HealthKit:</strong> Supplies health data according to the permissions you grant and Apple's policies</li>
         <li><strong>Apple Files, iCloud, and share services:</strong> Handle destinations you choose according to Apple's or the selected provider's policies</li>
+        <li><strong>Apple Intelligence (Foundation Models framework):</strong> Generates optional Insights summaries on your device; health data is not sent off the device for this feature</li>
         <li><strong>Apple StoreKit:</strong> Processes optional tip purchases; we do not receive or store your payment-card information</li>
         <li><strong>Your webhook provider:</strong> Receives data only when you configure webhook delivery; its processing is governed by its own terms and privacy policy</li>
     </ul>
